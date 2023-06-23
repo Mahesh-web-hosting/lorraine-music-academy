@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ecommerce Store</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Ecommerce Store</h1>
+  </header>
+
+  <div class="container">
+    <div class="login-form">
+      <h2>Login</h2>
+      <form id="login" action="#">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter your username" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password">
+        </div>
+        <button type="submit" style="background: -webkit-linear-gradient(right, #ff754b, #684380, #d8aa65, #483232);border-radius: 15%; color: antiquewhite;">Login</button>
+      </form>
+    </div>
+
+    <div class="registration-form">
+      <h2>Create Account</h2>
+      <form id="registration" action="#">
+        <div class="form-group">
+          <label for="newUsername">Username</label>
+          <input type="text" id="newUsername" placeholder="Choose a username" required >
+        </div>
+        <div class="form-group">
+          <label for="newPassword">Password</label>
+          <input type="password" id="newPassword" placeholder="Choose a password" required>
+        </div>
+        <button type="submit" style="background: -webkit-linear-gradient(right, #ff754b, #684380, #d8aa65, #483232);border-radius: 10%;">Create Account</button>
+      </form>
+    </div>
+
+    <div id="productList">
+      <h2>Product List</h2>
+      <ul class="product-list">
+        <li class="product-item">
+          <h3>Product 1</h3>
+          <img src="images/img 1.jpg" alt="gut">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ratione explicabo saepe unde voluptatem libero neque ullam quia, nemo velit natus numquam! Ratione architecto dicta nisi corporis maxime. Repellendus, vero!</p>
+          <p class="price">Price: 10000 Rs</p>
+          <button class="button 1">Add to Cart</button>
+          <button class="button 2">Buy</button>
+        </li>
+        <li class="product-item">
+          <h3>Product 2</h3>
+          <img src="images/img2.jpg" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam corrupti hic dolor odit esse nulla voluptatum itaque totam recusandae dignissimos possimus quos culpa unde, accusantium doloremque omnis aliquam non! Rerum?</p>
+          <p class="price">Price: 20000 Rs</p>
+          <button class="button 1">Add to Cart</button>
+          <button class="button 2">Buy</button>
+        </li>
+        <li class="product-item">
+          <h3>Product 3</h3>
+          <img src="images/img 3.jpg" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae natus dolorum laudantium, possimus explicabo beatae optio ullam repellat maiores nostrum illum saepe dolorem minus iure? Labore quas voluptatum modi.</p>
+          <p class="price">Price: 30000 Rs</p>
+          <button class="button 1">Add to Cart</button>
+          <button class="button 2">Buy</button>
+        </li>
+        <li class="product-item">
+            <h3>Product 4</h3>
+            <img src="images/img 4.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae natus dolorum laudantium, possimus explicabo beatae optio ullam repellat maiores nostrum illum saepe dolorem minus iure? Labore quas voluptatum modi.</p>
+            <p class="price">Price: 26000 Rs</p>
+            <button class="button 1">Add to Cart</button>
+            <button class="button 2">Buy</button>
+        </li>
+        <li class="product-item">
+            <h3>Product 5</h3>
+            <img src="images/img 5.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae natus dolorum laudantium, possimus explicabo beatae optio ullam repellat maiores nostrum illum saepe dolorem minus iure? Labore quas voluptatum modi.</p>
+            <p class="price">Price: 55000 Rs</p>
+            <button class="button 1">Add to Cart</button>
+            <button class="button 2">Buy</button>
+        </li>
+        <li class="product-item">
+            <h3>Product 6</h3>
+            <img src="images/img 6.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quae natus dolorum laudantium, possimus explicabo beatae optio ullam repellat maiores nostrum illum saepe dolorem minus iure? Labore quas voluptatum modi.</p>
+            <p class="price">Price: 70000 Rs</p>
+            <button class="button 1">Add to Cart</button>
+            <button class="button 2">Buy</button>
+          </li>
+      </ul>
+    </div>
+
+    <div id="cart">
+      <h2>Cart</h2>
+      <ul class="cart-items">
+        
+      </ul>
+    </div>
+
+    <div id="buy">
+        <h2>Products you buy</h2>
+        <ul class="buy-items">
+
+          
+        </ul>
+    </div>
+
+  </div>
+
+ 
+
+  <script src="js.js"></script>
+</body>
+</html>

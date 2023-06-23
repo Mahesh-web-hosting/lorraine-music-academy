@@ -1,0 +1,246 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(images/back.jpg);
+    height: 80%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+  }
+  label{
+    font-family:cursive;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+  }
+  h2{
+    color: #1eeee1;
+    font-family:cursive;
+  }
+  
+  .login-form,
+  .registration-form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    background: -webkit-linear-gradient(right, #bceaef, #ed8282, #97d7dd, #ef6464);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h2,
+  .registration-form h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  .form-group button{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    list-style: none;
+  }
+  
+  .product-item {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-item h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333333;
+  }
+  
+  .product-item p {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #666666;
+  }
+  
+  .product-item button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cart {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item .product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .cart-item h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #fd915f;
+  }
+  
+  .cart-item p {
+    margin: 0;
+    font-size: 14px;
+    font-family:cursive;
+    color: #a5e2fb;
+  mix-blend-mode: difference;
+  }
+  
+  .cart-item button {
+
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fd3030;
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .buy {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buy h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .buy-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .buy-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .buy-item .product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buy-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .buy-item h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #fd915f;
+  }
+  
+  .buy-item p {
+    margin: 0;
+    font-size: 14px;
+    font-family:cursive;
+    color: #a5e2fb;
+  mix-blend-mode: difference;
+  }
+  
+  .buy-item button {
+
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fd3030;
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  
+  
